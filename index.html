@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- site title -->
     <title>Panda Commerce</title>
+    <!-- custom stylesheet link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap CSS link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,8 +17,8 @@
   </head>
   <body>
     <header>
-      <nav class="container navbar navbar-expand-lg fixed-top bg-light">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="images/logo.png" alt="logo of panda Commerce"
           /></a>
@@ -55,7 +59,7 @@
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active bg-info border rounded">
+            <div class="carousel-item active panda-bg border rounded">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center ps-5">
                   <div>
@@ -65,7 +69,9 @@
                       to waste time in front of tv
                     </p>
                     <h2 class="text-danger">$1200</h2>
-                    <button class="btn btn-danger">Buy Now</button>
+                    <button class="btn panda-btn-buy-now text-white">
+                      Buy Now
+                    </button>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -77,7 +83,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item bg-info border rounded">
+            <div class="carousel-item panda-bg border rounded">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center ps-5">
                   <div>
@@ -87,7 +93,9 @@
                       just want to waste time in front of funky world.
                     </p>
                     <h2 class="text-danger">$420</h2>
-                    <button class="btn btn-danger">Buy Now</button>
+                    <button class="btn panda-btn-buy-now text-white">
+                      Buy Now
+                    </button>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -99,7 +107,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item bg-info border rounded">
+            <div class="carousel-item panda-bg border rounded">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center ps-5">
                   <div>
@@ -109,7 +117,9 @@
                       want to waste time in front of breath taking real sports.
                     </p>
                     <h2 class="text-danger">$600</h2>
-                    <button class="btn btn-danger">Buy Now</button>
+                    <button class="btn panda-btn-buy-now text-white">
+                      Buy Now
+                    </button>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -148,7 +158,7 @@
       <!-- categories start -->
       <section>
         <div class="container text-center my-5 py-5">
-          <div class="row g-2">
+          <div class="row g- categories">
             <!-- single category -->
             <div class="col-lg-4 col-md-6 col-12">
               <div
@@ -161,7 +171,7 @@
             <!-- single category -->
             <div class="col-lg-4 col-md-6 col-12">
               <div
-                class="p-3 border bg-info d-flex align-items-center justify-content-around border rounded"
+                class="p-3 border panda-bg d-flex align-items-center justify-content-around border rounded"
               >
                 <h1 class="text-white">Bag</h1>
                 <img src="images/categories/bag.png" alt="" />
@@ -201,7 +211,7 @@
               </div>
               <div class="ms-3 mb-3">
                 <h2>$120</h2>
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -221,7 +231,7 @@
               </div>
               <div class="ms-3 mb-3">
                 <h2>$320</h2>
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -242,7 +252,7 @@
               </div>
               <div class="ms-3 mb-3">
                 <h2>$350</h2>
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -266,7 +276,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -282,7 +292,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -299,7 +309,7 @@
                 </p>
               </div>
               <div class="m-3">
-                <div class="btn btn-warning">Buy now</div>
+                <div class="btn panda-btn-buy-now text-white">Buy now</div>
               </div>
             </div>
           </div>
@@ -310,7 +320,7 @@
       <section
         id="subscribe"
         style="height: 300px"
-        class="container d-flex rounded-3 justify-content-center align-items-center bg-info"
+        class="container d-flex rounded-3 justify-content-center align-items-center panda-bg"
       >
         <div>
           <h2>LET'S STAY IN TOUCH</h2>
@@ -324,7 +334,9 @@
                 aria-describedby="emailHelp"
               />
             </div>
-            <button type="submit" class="btn btn-warning">Submit</button>
+            <button type="submit" class="btn panda-btn-buy-now text-white">
+              Submit
+            </button>
           </form>
         </div>
       </section>
